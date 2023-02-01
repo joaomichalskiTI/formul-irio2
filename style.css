@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    overflow: hidden;    
+}   
+.background{
+    background-color: black;
+    background-image: url(Joao.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 550px;
+    overflow: hidden;    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    align-items: center;
+    text-align: center;
+    padding: 0,5rem;
+}
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300px;
+}
+.logo{
+    margin: 15px 15px;
+    height:150px;
+    width: 200px;
+    background: transparent;
+}
+.logo:hover{
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.111);
+    box-shadow: 2px 2px 15px 2px rgba(255, 255, 255, 0.473);
+    transition: 0.5s;
+}
+button{
+    font-family: 'Varela Round', sans-serif;
+    color: #2cee71;
+    background: transparent;
+    border: solid 1px #2cee71;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 15px;
+    width: 150px;
+}
+button:hover{
+    background-color: #2cee71;
+    color: white;
+    transition: 0.5s;
+}
+.container-text{
+    color: white;
+}
