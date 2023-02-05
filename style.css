@@ -9,16 +9,15 @@
 }
 
 body{
-    overflow: hidden;    
+    background:linear-gradient(50deg, rgb(17, 17, 17), rgba(55, 54, 54, 0.994));
 }   
 .background{
-    background-color: black;
     background-image: url(Joao.png);
     min-height: 100vh;
     background-repeat: no-repeat;
     background-position: center right;
     background-size: 550px;
-    overflow: hidden;    
+
 }
 header{
     display: flex;
@@ -62,4 +61,73 @@ button:hover{
 }
 .container-text{
     color: white;
+    padding: 40px 0px 0px 200px;
+}
+.redes-sociais{
+margin-left: 185px;
+}
+.redes-sociais a{
+    padding: 8px;
+    color: #2cee71;
+}
+.redes-sociais i{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.redes-sociais a:hover{
+    color: white;
+    transition: 0.2s;
+}
+.text h3{
+    color: white;
+    font-size: 22px;
+}
+.text h1{
+    color: white;
+    margin-top: 10px;
+}
+.text span{
+    color: #2cee71;
+}
+.text span:hover{
+    color: rgba(117, 241, 126, 0.591);
+    transition:0.3s;
+}
+.text p{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 25px;
+}
+.btn{
+    margin-top: 15px;
+    margin-left: 180px;
+}
+#container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 1s;
+    height: 0;
+    overflow: hidden;
+    font-size: 20px;
+}
+#container.show{
+    transition: all 0.5s;
+    height: auto;
+    opacity: 1;
+}
+#container-parent{
+    position: relative;
+    padding-top: 0;
+    transition: padding-top 0.2s ease-in-out;
+    margin-top: 15px;
+    height: ;
+}
+#container-parent.show{
+    padding-top: calc(100px + 1em);
+}
+.container-btn{
+    margin-top: 50px;
 }
