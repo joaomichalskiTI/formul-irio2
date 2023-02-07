@@ -48,13 +48,14 @@ button{
     font-family: 'Varela Round', sans-serif;
     color: #2cee71;
     background: transparent;
-    border: solid 1px #2cee71;
+    border: solid 1px #57ba7a;
     padding: 8px;
     border-radius: 15px;
     font-size: 15px;
     width: 150px;
 }
 button:hover{
+    cursor: pointer;
     background-color: #2cee71;
     color: white;
     transition: 0.5s;
