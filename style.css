@@ -65,13 +65,13 @@ button:hover{
     padding: 40px 0px 0px 200px;
 }
 .redes-sociais{
-margin-left: 185px;
+    margin-left: 185px;
 }
 .redes-sociais a{
-    padding: 8px;
     color: #2cee71;
 }
 .redes-sociais i{
+    padding: 8px;
     font-size: 30px;
     margin-top: 10px;
 }

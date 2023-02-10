@@ -21,3 +21,11 @@ button2.addEventListener("click", function() {
   var url = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + message;
   window.open(url, "_blank");
 });
+
+var button3 =document.getElementById("projects-button");
+
+button3.addEventListener("click", function() {
+    var url = "https://jm-projetos.netlify.app/";
+    window.open(url, "_blank");
+  });
+
