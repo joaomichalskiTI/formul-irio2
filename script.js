@@ -25,7 +25,7 @@ button2.addEventListener("click", function() {
 var button3 =document.getElementById("projects-button");
 
 button3.addEventListener("click", function() {
-    var url = "https://jm-projetos.netlify.app/";
+    var url = "https://jm-site-de-projetos.netlify.app/";
     window.open(url, "_blank");
   });
 
