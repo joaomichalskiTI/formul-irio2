@@ -29,3 +29,11 @@ button3.addEventListener("click", function() {
     window.open(url, "_blank");
   });
 
+/* <p> Tenho 22 anos e estou animado em buscar me profissionalizar na área
+de desenvolvimento de software. Sou apaixonado por computação desde pequeno
+e amante de esportes.Vejo que meus pontos fortes são relações com pessoas
+e olhar estratégico para resolução de conflitos. 
+Busco sempre aperfeiçoar meu intelecto juntamente com 
+minhas habilidades interpessoais. Espero que goste do meu portifólio e nao hesite 
+em entrar em contato se tiver alguma pergunta.
+</p>*/

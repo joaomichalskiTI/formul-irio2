@@ -12,7 +12,7 @@ body{
     background:linear-gradient(50deg, rgb(17, 17, 17), rgba(55, 54, 54, 0.994));
 }   
 .background{
-    background-image: url(joao.png);
+    background-image: url(oi.png);
     min-height: 100vh;
     background-repeat: no-repeat;
     background-position: center right;
@@ -97,7 +97,7 @@ button:hover{
     color: white;
     font-size: 18px;
     font-weight: 300;
-    margin-top: 25px;
+    margin-top: 5px;
 }
 .btn{
     margin-top: 15px;
@@ -112,6 +112,7 @@ button:hover{
     height: 0;
     overflow: hidden;
     font-size: 20px;
+    width: 65%;
 }
 #container.show{
     transition: 5s;
@@ -122,12 +123,13 @@ button:hover{
     position: relative;
     padding-top: 0;
     transition: 0.2s ease-in-out;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 #container-parent.show{
-    padding-top: calc(100px + 1em);
-    transition: 0.5s;
+    padding-top: calc(120px + 1em);
+    transition: 0.2s;
 }
 .container-btn{
-    margin-top: 50px;
+    padding-top: 5px;
+    margin-top: 40px;
 }
