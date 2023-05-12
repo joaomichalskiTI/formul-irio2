@@ -1,7 +1,7 @@
 
-var container = document.getElementById("container");
-var containerParent = document.getElementById("container-parent");
-var button = document.getElementById("action-btn");
+let container = document.getElementById("container");
+let containerParent = document.getElementById("container-parent");
+let button = document.getElementById("action-btn");
 
 button.addEventListener("click", function(){
     if(container.classList.contains("show")){
@@ -13,19 +13,19 @@ button.addEventListener("click", function(){
     }
 });
 
-var button2 = document.getElementById("whatsapp-button");
+let button2 = document.getElementById("whatsapp-button");
 
 button2.addEventListener("click", function() {
-  var phoneNumber = "5547991999398";
-  var message = "Olá, boa tarde.";
-  var url = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + message;
+  let phoneNumber = "5547991999398";
+  let message = "Olá, boa tarde.";
+  let url = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + message;
   window.open(url, "_blank");
 });
 
-var button3 =document.getElementById("projects-button");
+let button3 =document.getElementById("projects-button");
 
 button3.addEventListener("click", function() {
-    var url = "https://jm-meus-projetos.netlify.app/";
+    let url = "https://jm-meus-projetos.netlify.app/";
     window.open(url, "_blank");
   });
 
